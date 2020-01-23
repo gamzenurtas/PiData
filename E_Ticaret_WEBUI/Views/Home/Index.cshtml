@@ -1,0 +1,94 @@
+﻿@using E_Ticaret_WEBUI.Models
+@model IEnumerable<ProductModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<!-- Home -->
+
+<div class="home">
+
+    <!-- Home Slider -->
+    <div class="home_slider_container">
+        <div class="owl-carousel owl-theme home_slider">
+
+            <!-- Slide -->
+            <div class="owl-item">
+                <div class="home_slider_background" style="background-image:url(../Content/images/home_slider_1.jpg)"></div>
+               
+            </div>
+
+        
+
+        </div>
+    </div>
+</div>
+
+<!-- Home Search -->
+<div class="home_search">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="home_search_container">
+                    <div class="home_search_content">
+                        <form action="#" class="search_form d-flex flex-row align-items-start justfy-content-start">
+                            <div class="search_form_content d-flex flex-row align-items-start justfy-content-start flex-wrap">
+                                <div>
+                                    <select class="search_form_select">
+                                        <option disabled selected>İlan Türü</option>
+                                        <option>Satılık</option>
+                                        <option>Kiralık</option>
+                                    </select>
+                                </div> 
+                                <div>
+                                    <select class="search_form_select">
+                                        <option disabled selected>Şehir</option>
+                                        <option>Ankara</option>
+                                        <option>İstanbul</option>
+                                        <option>İzmir</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <select class="search_form_select">
+                                        <option disabled selected>Oda Sayısı</option>
+                                        <option>1+1</option>
+                                        <option>2+1</option>
+                                        <option>3+1</option>
+                                        <option>4+1</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <select class="search_form_select">
+                                        <option disabled selected>Isınma Türü</option>
+                                        <option>Doğalgaz</option>
+                                        <option>Jeotermal</option>                                   
+                                    </select>
+                                </div>
+                                <div>
+                                    <input type="text" style="background-image: none;" placeholder="m²" class="search_form_select">
+                                                                   
+                             
+                                </div>
+                         
+                            </div>
+                            <button class="search_form_button ml-auto">Ara</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Recent -->
+
+<div class="recent">
+    <div class="container">
+        @Html.Partial("_ProductList", Model)
+
+    </div>
+</div>
+

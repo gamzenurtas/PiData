@@ -1,0 +1,35 @@
+C:\Users\ALTAN EMRE\source\repos\Ankara Wissen\E_Ticaret\E_Ticaret_Entity\obj\Debug\E_Ticaret_Entity.csprojAssemblyReference.cache
+C:\Users\ALTAN EMRE\source\repos\Ankara Wissen\E_Ticaret\E_Ticaret_Entity\bin\Debug\E_Ticaret_Entity.dll.config
+C:\Users\ALTAN EMRE\source\repos\Ankara Wissen\E_Ticaret\E_Ticaret_Entity\bin\Debug\E_Ticaret_Entity.dll
+C:\Users\ALTAN EMRE\source\repos\Ankara Wissen\E_Ticaret\E_Ticaret_Entity\bin\Debug\E_Ticaret_Entity.pdb
+C:\Users\ALTAN EMRE\source\repos\Ankara Wissen\E_Ticaret\E_Ticaret_Entity\bin\Debug\EntityFramework.dll
+C:\Users\ALTAN EMRE\source\repos\Ankara Wissen\E_Ticaret\E_Ticaret_Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ALTAN EMRE\source\repos\Ankara Wissen\E_Ticaret\E_Ticaret_Entity\bin\Debug\EntityFramework.xml
+C:\Users\ALTAN EMRE\source\repos\Ankara Wissen\E_Ticaret\E_Ticaret_Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ALTAN EMRE\source\repos\Ankara Wissen\E_Ticaret\E_Ticaret_Entity\obj\Debug\E_Ticaret_Entity.csproj.CopyComplete
+C:\Users\ALTAN EMRE\source\repos\Ankara Wissen\E_Ticaret\E_Ticaret_Entity\obj\Debug\E_Ticaret_Entity.dll
+C:\Users\ALTAN EMRE\source\repos\Ankara Wissen\E_Ticaret\E_Ticaret_Entity\obj\Debug\E_Ticaret_Entity.pdb
+C:\Users\gamze\OneDrive\Masaüstü\E_Ticaret\E_Ticaret_Entity\bin\Debug\E_Ticaret_Entity.dll.config
+C:\Users\gamze\OneDrive\Masaüstü\E_Ticaret\E_Ticaret_Entity\bin\Debug\E_Ticaret_Entity.dll
+C:\Users\gamze\OneDrive\Masaüstü\E_Ticaret\E_Ticaret_Entity\bin\Debug\E_Ticaret_Entity.pdb
+C:\Users\gamze\OneDrive\Masaüstü\E_Ticaret\E_Ticaret_Entity\bin\Debug\EntityFramework.dll
+C:\Users\gamze\OneDrive\Masaüstü\E_Ticaret\E_Ticaret_Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gamze\OneDrive\Masaüstü\E_Ticaret\E_Ticaret_Entity\bin\Debug\EntityFramework.xml
+C:\Users\gamze\OneDrive\Masaüstü\E_Ticaret\E_Ticaret_Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gamze\OneDrive\Masaüstü\E_Ticaret\E_Ticaret_Entity\obj\Debug\E_Ticaret_Entity.csprojAssemblyReference.cache
+C:\Users\gamze\OneDrive\Masaüstü\E_Ticaret\E_Ticaret_Entity\obj\Debug\E_Ticaret_Entity.csproj.CoreCompileInputs.cache
+C:\Users\gamze\OneDrive\Masaüstü\E_Ticaret\E_Ticaret_Entity\obj\Debug\E_Ticaret_Entity.csproj.CopyComplete
+C:\Users\gamze\OneDrive\Masaüstü\E_Ticaret\E_Ticaret_Entity\obj\Debug\E_Ticaret_Entity.dll
+C:\Users\gamze\OneDrive\Masaüstü\E_Ticaret\E_Ticaret_Entity\obj\Debug\E_Ticaret_Entity.pdb
+C:\Users\gamze\OneDrive\Masaüstü\REM_SYSTEM\E_Ticaret_Entity\bin\Debug\E_Ticaret_Entity.dll.config
+C:\Users\gamze\OneDrive\Masaüstü\REM_SYSTEM\E_Ticaret_Entity\bin\Debug\E_Ticaret_Entity.dll
+C:\Users\gamze\OneDrive\Masaüstü\REM_SYSTEM\E_Ticaret_Entity\bin\Debug\E_Ticaret_Entity.pdb
+C:\Users\gamze\OneDrive\Masaüstü\REM_SYSTEM\E_Ticaret_Entity\bin\Debug\EntityFramework.dll
+C:\Users\gamze\OneDrive\Masaüstü\REM_SYSTEM\E_Ticaret_Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gamze\OneDrive\Masaüstü\REM_SYSTEM\E_Ticaret_Entity\bin\Debug\EntityFramework.xml
+C:\Users\gamze\OneDrive\Masaüstü\REM_SYSTEM\E_Ticaret_Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gamze\OneDrive\Masaüstü\REM_SYSTEM\E_Ticaret_Entity\obj\Debug\E_Ticaret_Entity.csprojAssemblyReference.cache
+C:\Users\gamze\OneDrive\Masaüstü\REM_SYSTEM\E_Ticaret_Entity\obj\Debug\E_Ticaret_Entity.csproj.CoreCompileInputs.cache
+C:\Users\gamze\OneDrive\Masaüstü\REM_SYSTEM\E_Ticaret_Entity\obj\Debug\E_Ticaret_Entity.csproj.CopyComplete
+C:\Users\gamze\OneDrive\Masaüstü\REM_SYSTEM\E_Ticaret_Entity\obj\Debug\E_Ticaret_Entity.dll
+C:\Users\gamze\OneDrive\Masaüstü\REM_SYSTEM\E_Ticaret_Entity\obj\Debug\E_Ticaret_Entity.pdb

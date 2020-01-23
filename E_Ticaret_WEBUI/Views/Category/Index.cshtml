@@ -1,0 +1,66 @@
+﻿@model IEnumerable<E_Ticaret_Entity.Entity.Category>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+    <div class="container pb-5 pt-5">
+        <h2>İlan Listesi</h2>
+        <hr />
+        <p>
+            @Html.ActionLink("Yeni İlan", "Create", null, new { @class = "btn btn-primary" })
+        </p>
+        <hr />
+        <table class="table table-bordered table-striped">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.RoomQuantity)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.heat)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SquareMeter)
+                </th>
+                <th style="width:135px;"></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RoomQuantity)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.heat)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SquareMeter)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Güncelle", "Edit", new { id = item.Id }, new { @class = "btn btn-primary btn-sm" })
+                        @Html.ActionLink("Sil", "Delete", new { id = item.Id }, new { @class = "btn btn-danger btn-sm" })
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>

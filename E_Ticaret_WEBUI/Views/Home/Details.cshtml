@@ -1,0 +1,178 @@
+﻿@using E_Ticaret_Entity.Entity
+@model Product
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+
+
+<div class="intro">
+   
+    <div class="intro_slider_container">
+
+        <!-- Intro Slider -->
+        <div class="owl-carousel owl-theme intro_slider">
+            <!-- Slide -->
+            <div class="owl-item">
+                <img src="~/Content/images/@Model.Image" />
+            </div>
+            <!-- Slide -->
+            <div class="owl-item">
+                <img src="~/Content/images/@Model.Image" />
+            </div>
+            <!-- Slide -->
+            <div class="owl-item">
+                <img src="~/Content/images/@Model.Image" />
+            </div>
+        </div>
+
+        <!-- Intro Slider Nav -->
+        <div class="intro_slider_nav_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="intro_slider_nav_content d-flex flex-row align-items-start justify-content-end">
+                            <div class="intro_slider_nav intro_slider_prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+                            <div class="intro_slider_nav intro_slider_next"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="property">
+    <div class="container">
+        <div class="row">
+
+            <!-- Sidebar -->
+
+            <div class="col-lg-4">
+                <div class="sidebar">
+                    <div class="sidebar_search">
+                        <div class="sidebar_search_title">Hayal Ettiğiniz Evi Bulun</div>
+                        <div class="sidebar_search_form_container">
+                            <form action="#" class="sidebar_search_form" id="sidebar_search_form">
+
+
+                                <select class="sidebar_search_select">
+                                    <option disabled="" selected="">Emlak Türü</option>
+                                    <option>Satılık</option>
+                                    <option>Kiralık</option>
+
+                                </select>
+                                <select class="sidebar_search_select">
+                                    <option disabled="" selected="">Emlak Durumu</option>
+                                    <option>3+1</option>
+                                    <option>4+1</option>
+                                    <option>5+1</option>
+                                    <option>6+1</option>
+                                </select>
+                                <select class="sidebar_search_select">
+                                    <option disabled="" selected="">Isınma Türü</option>
+                                    <option>Doğalgaz</option>
+                                    <option>Jeotermal</option>
+                                </select>
+
+
+                                <!-- Filter Price -->
+                                <div class="price_filter">
+                                    <div class="price_filter_values d-flex flex-row align-items-center justfy-content-start">
+                                        <div>0TL</div>
+                                        <div class="ml-auto">1000000TL</div>
+                                    </div>
+                                    <input type="range" min="0" max="1000" step="10" value="250" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeslider rangeslider--horizontal" id="js-rangeslider-0"><div class="rangeslider__fill" style="width: 78.75px;"></div><div class="rangeslider__handle" style="left: 71.25px;"></div></div>
+                                </div>
+
+                                <!-- Filter Area -->
+                                <div class="area_filter">
+                                    <div class="price_filter_values d-flex flex-row align-items-center justfy-content-start">
+                                        <div>100m²</div>
+                                        <div class="ml-auto">500m²</div>
+                                    </div>
+                                    <input type="range" min="0" max="1000" step="10" value="300" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeslider rangeslider--horizontal" id="js-rangeslider-1"><div class="rangeslider__fill" style="width: 93px;"></div><div class="rangeslider__handle" style="left: 85.5px;"></div></div>
+                                </div>
+                                <button class="sidebar_search_button search_form_button">Ara</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Property Content -->
+            <div class="col-lg-7 offset-lg-1">
+                <div class="property_content">
+                    <div class="property_icons">
+                        <div class="property_title">Özellikler</div>
+                        <div class="property_text property_text_1">
+                            <p>Donec ullamcorper nulla non metus auctor fringi lla. Curabitur blandit tempus porttitor.</p>
+                        </div>
+                        <div class="property_rooms d-flex flex-sm-row flex-column align-items-start justify-content-start">
+
+                            <!-- Property Room Item -->
+                          
+                            <div class="property_room">
+                                <div class="property_room_title">Oda Sayısı</div>
+                                <div class="property_room_content d-flex flex-row align-items-center justify-content-start">
+                                    <div class="room_icon"><img src="images/room_1.png" alt=""></div>
+                                    @if (Model.IsSell)
+                                    {
+                                        <div class="room_num">Satılık</div>
+                                    }
+                                    else
+                                    {   <div class="room_num">Kiralık</div>
+                                    }
+                                    </div>
+                            </div>
+
+                            <div class="property_room">
+                                <div class="property_room_title">Oda Sayısı</div>
+                                <div class="property_room_content d-flex flex-row align-items-center justify-content-start">
+                                    <div class="room_icon"><img src="images/room_1.png" alt=""></div>
+                                    <div class="room_num">@Model.RoomQuantity</div>
+                                </div>
+                            </div>
+
+
+
+                            <!-- Property Room Item -->
+                            <div class="property_room">
+                                <div class="property_room_title">Genişlik</div>
+                                <div class="property_room_content d-flex flex-row align-items-center justify-content-start">
+                                    <div class="room_icon"><img src="images/room_3.png" alt=""></div>
+                                    <div class="room_num">@Model.SquareMeter m²</div>
+                                </div>
+                            </div>
+
+                            <!-- Property Room Item -->
+                            <div class="property_room">
+                                <div class="property_room_title">Isınma Türü</div>
+                                <div class="property_room_content d-flex flex-row align-items-center justify-content-start">
+                                    <div class="room_icon"><img src="images/room_4.png" alt=""></div>
+                                    <div class="room_num">@Model.heat</div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                    <!-- Description -->
+
+                    <div class="property_description">
+                        <div class="property_title">Açıklama</div>
+                        <div class="property_text property_text_2">
+                            <p>Donec ullamcorper nulla non metus auctor fringi lla. Curabitur blandit tempus porttitor.Sed lectus urna, ultricies sit amet risus eget, euismod imperdiet augue. Duis imperdiet, purus a pellentesque sodales, sapien mauris rhoncus eros, ac blandit elit leo ac diam. Sed lectus urna, ultricies sit amet risus eget, euismod imperdiet augue. Duis imperdiet, purus a pellentesque sodales, sapien mauris rhoncus eros, ac blandit elit leo ac diam</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

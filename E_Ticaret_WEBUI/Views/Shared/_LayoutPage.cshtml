@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>REM-Real Estate Management</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Bluesky template project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="../Content/styles/bootstrap4/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../Content/plugins/OwlCarousel2-2.2.1/owl.carousel.css" rel="stylesheet" />
+    <link href="../Content/plugins/OwlCarousel2-2.2.1/owl.theme.default.css" rel="stylesheet" />
+    <link href="../Content/plugins/OwlCarousel2-2.2.1/animate.css" rel="stylesheet" />
+    <link href="../Content/styles/main_styles.css" rel="stylesheet" />
+    <link href="../Content/styles/responsive.css" rel="stylesheet" />
+
+
+</head>
+<body>
+
+    <div class="super_container">
+
+        <!-- Header -->
+
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="header_content d-flex flex-row align-items-center justify-content-start">
+                            <div class="logo">
+                                <a href="#"><img src="~/Content/images/REM.png" /></a>
+                            </div>
+                            <nav style="margin-right:350px;" class="main_nav">
+                                <ul>
+                                    <li><a href="index.html">Anasayfa</a></li>
+                                    <li><a href="about.html">Hakkımızda</a></li>
+                                    <li><a href="properties.html">İletişim</a></li>
+
+
+                                </ul>
+                            </nav>
+                            @Html.Partial("_LoginPartial")
+                            <div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        @RenderBody()
+
+
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="footer_bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="footer_bar_content d-flex flex-row align-items-center justify-content-start">
+                              
+                                <div class="footer_nav">
+                                    <ul>
+                                        <li><a href="index.html">Anasayfa</a></li>
+                                        <li><a href="#">Hakkımızda</a></li>
+                                        <li><a href="contact.html">İletişim</a></li>
+                                    </ul>
+                                </div>
+                                <div class="footer_phone ml-auto">652 345 3222 11</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="../Scripts/js/jquery-3.2.1.min.js"></script>
+    <script src="../Content/styles/bootstrap4/popper.js"></script>
+    <script src="../Content/styles/bootstrap4/bootstrap.min.js"></script>
+    <script src="../Content/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="../Content/plugins/easing/easing.js"></script>
+    <script src="../Content/plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="../Scripts/js/custom.js"></script>
+</body>
+</html>
